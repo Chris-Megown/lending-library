@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 
 public class Book {
 
@@ -12,6 +13,8 @@ public class Book {
 		this.bookISBN = bookISBN;
 		this.category = category;
 
+		ArrayList<Book> bookList = new ArrayList<Book>();
+		bookList.add("BillsAdventure", "Bill", "1234", "Adventure");
 	}
 
 }
